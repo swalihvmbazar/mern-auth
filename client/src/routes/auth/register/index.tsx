@@ -50,7 +50,7 @@ function RegisterComponent() {
   return (
     <AuthLayout 
       title="Create your account"
-      subtitle="Join us today! Please fill in your details."
+      subtitle="Register a account to get started."
     >
       <form onSubmit={handleSubmit} className="space-y-6">
         {error && (
